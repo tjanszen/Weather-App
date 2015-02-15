@@ -1,0 +1,53 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300);
+.container {
+  width: 400px;
+  background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
+  opacity: .6;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  padding: 0 10px;
+}
+#city {
+  width: 400px;
+  padding-top: 50px;
+  font-size: 2.5em;
+}
+#monthDay {
+  width: 400px;
+  font-size: 1.2em;
+}
+#cond {
+  width: 400px;
+  padding-top: 10px;
+  font-size: 1.2em;
+}
+#currentTemp {
+  width: 400px;
+  padding: 20px 0;
+  font-size: 4em;
+}
+.days {
+  width: 400px;
+  height: 60px;
+  padding: 10px 0 10px 40px;
+  font-size: 1.5em;
+  margin: 0 auto;
+  border-bottom: 1px solid #efa99b;
+  transition: height 0.5s ease;
+}
+.data {
+  padding: 10px 0;
+}
+.row.days:hover {
+  webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+  cursor: pointer;
+  height: 150px;
+  transition: height 0.5s ease;
+}
+.icon-image {
+  height: 30px;
+  background-repeat: no-repeat;
+}
